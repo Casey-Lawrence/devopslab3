@@ -14,5 +14,5 @@ Vagrant.configure("2") do |config|
   SHELL
 
   # Upload hello.py file
-  config.vm.provision "file", source: "./hello.py", destination: "/home/vagrant/hello.py"
+  config.vm.provision "file", source: "./hello.py", destination: "C:\Users\casey\devopslab3\hello.py"
 end
